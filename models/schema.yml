@@ -21,6 +21,9 @@ models:
           - unique
           - not_null
 
+      - name: status
+        description: "{{ doc('order_status') }}"
+
   - name: stg_customers
     description: This model cleans up customer data
     columns:
